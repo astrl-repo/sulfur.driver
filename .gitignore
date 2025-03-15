@@ -1,0 +1,127 @@
+﻿# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM/
+ARM64/
+*.app/
+*.ipa
+*.iobj
+*.ipdb
+*.ilk
+*.map
+*.obj
+*.pdb
+*.tlog
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.cache
+*.db
+
+# Auto-generated files
+GeneratedFiles/
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.bak
+*.swp
+*.class
+*.jar
+*.war
+*.ear
+*.nuget
+*.pyc
+*.pyo
+*.sqlite
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+*.nuspec
+*.psmdcp
+*.log
+
+# Entity Framework
+*_MigrationHistory/
+*.efmigrations/
+
+# ASP.NET
+*.PublishSettings
+*.pubxml
+*.pubxml.user
+.vsconfig
+
+# Node.js / npm
+node_modules/
+npm-debug.log
+yarn.lock
+.pnp/
+.pnp.js
+
+# IDE-specific settings
+*.suo
+*.ntvs*
+*.nvj*
+*.njsproj
+*.sln.cache
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# JetBrains Rider / Resharper
+*.DotSettings
+*_Resharper.*
+.idea/
+
+# Logs
+*.log
+
+# Coverage
+*.coverage
+*.coveragexml
+*.trx
+*.cobertura.xml
+
+# Testing
+TestResults/
+
+# Tools
+*.dotnet_tool/
+.vscode/
+.vscode-test/
+ReSharper/

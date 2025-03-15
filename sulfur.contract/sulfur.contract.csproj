@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>disable</Nullable>
+        <RootNamespace>Sulfur.Contract</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+
+    <Target Name="ExportDll" AfterTargets="Build">
+        <ItemGroup>
+            <DllFile Include="$(OutputPath)sulfur.contract.dll" />
+        </ItemGroup>
+
+        <Copy
+                SourceFiles="@(DllFile)"
+                DestinationFolder="$(SolutionDir)sulfur.shared_components/Runtime"
+                Condition="Exists('%(DllFile.FullPath)')" />
+
+        <!-- Ensure the target directory is created if it doesn't exist -->
+        <MakeDir
+                Directories="$(SolutionDir)sulfur.shared_components/Runtime"
+                Condition="!Exists('$(SolutionDir)sulfur.shared_components/Runtime')" />
+
+        <Message Text="    Copy: @(DllFile) -> $(SolutionDir)sulfur.shared_components/Runtime/@(DllFile)" Importance="high" />
+    </Target>
+
+</Project>

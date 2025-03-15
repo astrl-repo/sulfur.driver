@@ -1,0 +1,15 @@
+﻿{
+  "name": "com.sulfur.sharedcomponents",
+  "displayName": "Sulfur Shared Components",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "description": "Core components shared between Sulfur projects, including communication models and utilities.",
+  "author": {
+    "name": "astrl",
+    "email": "astrl.stuff@gmail.com"
+  },
+  "keywords": [
+    "sulfur"
+  ],
+  "license": "MIT"
+}

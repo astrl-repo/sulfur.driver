@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sulfur.driver", "sulfur.driver\sulfur.driver.csproj", "{0B549E37-7C02-4275-B8A6-118A7CA608DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sulfur.contract", "sulfur.contract\sulfur.contract.csproj", "{29F49007-8080-40C8-A79A-B052EC8D0C16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sulfur.demo_test", "sulfur.demo_test\sulfur.demo_test.csproj", "{24E45F4D-2F18-43DF-8152-6BA1F187EEBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B549E37-7C02-4275-B8A6-118A7CA608DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B549E37-7C02-4275-B8A6-118A7CA608DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B549E37-7C02-4275-B8A6-118A7CA608DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B549E37-7C02-4275-B8A6-118A7CA608DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F49007-8080-40C8-A79A-B052EC8D0C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F49007-8080-40C8-A79A-B052EC8D0C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F49007-8080-40C8-A79A-B052EC8D0C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F49007-8080-40C8-A79A-B052EC8D0C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E45F4D-2F18-43DF-8152-6BA1F187EEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E45F4D-2F18-43DF-8152-6BA1F187EEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E45F4D-2F18-43DF-8152-6BA1F187EEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E45F4D-2F18-43DF-8152-6BA1F187EEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
